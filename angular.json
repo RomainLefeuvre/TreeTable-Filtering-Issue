@@ -3,13 +3,9 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tree-table-issue": {
+    "tree-table-issue-v2": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -17,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tree-table-issue",
+            "outputPath": "dist/tree-table-issue-v2",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -66,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "tree-table-issue:build"
+            "browserTarget": "tree-table-issue-v2:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "tree-table-issue:build:production"
+              "browserTarget": "tree-table-issue-v2:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tree-table-issue:build"
+            "browserTarget": "tree-table-issue-v2:build"
           }
         },
         "test": {
@@ -92,7 +88,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           }
@@ -114,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "tree-table-issue:serve"
+            "devServerTarget": "tree-table-issue-v2:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "tree-table-issue:serve:production"
+              "devServerTarget": "tree-table-issue-v2:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "tree-table-issue"
+  "defaultProject": "tree-table-issue-v2"
 }
