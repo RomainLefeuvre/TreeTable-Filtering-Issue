@@ -1,0 +1,52 @@
+{
+    "data":
+    [
+        {
+            "data":{
+                "FirstName":"Marie",
+                "LastName":"Dupont"
+
+            },
+            "children":[
+                {
+                    "data":{
+                        "FirstName":"Yvon",
+                        "LastName":"De Marie"
+
+                    }
+                },
+                {
+                    "data":{
+                        "FirstName":"Hugue",
+                        "LastName":"Dupis"
+                    }
+                }
+            ]
+        },
+        {
+            "data":{
+                "FirstName":"Marie",
+                "LastName":"Lacroix"
+
+            },
+            "children":[
+                {
+                    "data":{
+                        "FirstName":"Jean Marie",
+                        "LastName":"Dutru"
+
+                    }
+                },
+                {
+                    "data":{
+                        "FirstName":"Jeanne",
+                        "LastName":"Lamer"
+
+                    }
+                }
+            ]
+        }
+
+
+    ]
+}
